@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Average);
+
+*{
+  font-family: 'Average', serif;  
+}
+
+body,html{
+  padding : 0px;
+  margin : 0px;
+  background-color : rgba(127,127,127,0.3);
+}
+
+header{
+  height : 50px;
+  color : white;
+  background-color : rgb(68,97,157);
+  padding : 10px;
+  box-shadow : 0px 5px 5px 5px rgba(0,0,0,.5);
+  position : fixed;
+  width : 100%;
+  top : 0%;
+}
+
+header *{
+  display : inline-block;
+  margin : 0px;
+  margin-left : 100px;
+}
+
+header input{
+  width : 400px;
+  height : 100%;
+}
+
+nav{
+  width : 13%;
+  border-left : solid 3px blue;
+  border-top  : solid 3px blue;
+  display : inline-block;
+  position : absolute;
+  left : 15%;
+  top : 150px;
+}
+
+img{
+  display : inline-block;
+  width : 75px;
+  height : 75px;
+}
+
+p.status{
+  display : inline-block;
+  width : 75%;
+}
+
+p.name{
+  font-weight : bold;
+}
+#feed{
+  margin : 3%;
+  width : 50%;
+  margin-top : 150px;
+  margin-left : 36%;
+  border-left : solid 3px blue;
+  border-top  : solid 3px blue;
+  padding : 10px;
+  box-sizing : border-box;
+  display : inline-block;
+}
+
+.post{
+  display : block;
+  width : 100%;
+  border-right : 5px solid rgba(0,0,0,0.25);
+  border-bottom : 5px solid rgba(0,0,0,0.25);
+  border-radius : 0 0 50px 0;
+  padding : 5px 5px 5px 15px;
+  box-sizing : border-box;
+  margin-bottom : 20px;
+  background-color : white;
+}
+
+.post:first-of-type{
+  border : solid 3px gold;
+  position : relative;
+  left : 40px;
+}
+
+div.third-column{
+  width : 10%;
+  height : 300%;
+  background-color : green;
+  display : inline-block;
+}
